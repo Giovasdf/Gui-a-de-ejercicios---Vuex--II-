@@ -26,12 +26,12 @@ export default createStore({
     },
     accionObtenerFrutas(context) {
       const frutas = context.getters.obtenerFrutas;
-      console.log(frutas.length); 
+      console.log(frutas); 
     },
   },
   getters: {
     obtenerFrutas(state) {
-      return state.frutas;
+      return state.frutas.length;
     },
   },
   modules: {},

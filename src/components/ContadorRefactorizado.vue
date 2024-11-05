@@ -16,6 +16,9 @@
     },
     methods: {
       ...mapActions(['accionModificarContador', 'accionObtenerFrutas']),
+      // accionModificarContador(context, payload) {
+        
+      // }
     }
   }
   </script>
